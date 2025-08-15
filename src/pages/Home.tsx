@@ -160,7 +160,7 @@ const Home = () => {
             Experience the authentic tastes of India in a modern, elegant setting.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-foreground">
+            <Button variant="primary" size="lg">
               Reserve Your Table
             </Button>
             <Button variant="primary" size="lg" asChild>
