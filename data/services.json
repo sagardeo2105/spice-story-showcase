@@ -1,0 +1,21 @@
+{
+  "services": [
+    {
+      "title": "Dine-In",
+      "description": "Enjoy a warm, inviting atmosphere and attentive service in our beautifully decorated restaurant."
+    },
+    {
+      "title": "Takeaway",
+      "description": "Savor your favorite dishes at home with our convenient takeaway options."
+    },
+    {
+      "title": "Catering",
+      "description": "Let us bring the flavors of India to your next event with our bespoke catering services."
+    },
+    {
+      "title": "Private Events",
+      "description": "Host birthdays, anniversaries, or corporate gatherings in our private dining area."
+    }
+  ],
+  "lastUpdated": "2025-08-15"
+}

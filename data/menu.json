@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "title": "Starters",
+      "items": [
+        {
+          "name": "Samosa (V)",
+          "price": "$80",
+          "description": "Crispy pastry filled with spiced potatoes and peas."
+        },
+        {
+          "name": "Paneer Tikka",
+          "price": "$180",
+          "description": "Grilled cottage cheese marinated in aromatic spices."
+        },
+        {
+          "name": "Chicken Malai Kebab",
+          "price": "$220",
+          "description": "Tender chicken skewers in a creamy marinade."
+        }
+      ]
+    },
+    {
+      "title": "Mains",
+      "items": [
+        {
+          "name": "Butter Chicken",
+          "price": "$320",
+          "description": "Classic North Indian curry with succulent chicken in a rich tomato gravy."
+        },
+        {
+          "name": "Paneer Butter Masala (V)",
+          "price": "$280",
+          "description": "Cottage cheese cubes in a creamy tomato sauce."
+        },
+        {
+          "name": "Hyderabadi Biryani",
+          "price": "$350",
+          "description": "Fragrant basmati rice layered with spiced chicken or vegetables."
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "items": [
+        {
+          "name": "Gulab Jamun",
+          "price": "$90",
+          "description": "Soft milk dumplings soaked in rose-scented syrup."
+        },
+        {
+          "name": "Kulfi",
+          "price": "$100",
+          "description": "Traditional Indian ice cream with pistachios and saffron."
+        }
+      ]
+    },
+    {
+      "title": "Beverages",
+      "items": [
+        {
+          "name": "Mango Lassi",
+          "price": "$70",
+          "description": "Refreshing yogurt drink blended with ripe mangoes."
+        },
+        {
+          "name": "Masala Chai",
+          "price": "$50",
+          "description": "Spiced Indian tea brewed with milk and aromatic spices."
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-08-15"
+}
