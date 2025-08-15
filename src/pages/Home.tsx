@@ -28,7 +28,7 @@ const Home = () => {
             <Button variant="primary" size="lg" asChild>
               <Link to="/menu">Explore Menu</Link>
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-foreground">
+            <Button variant="primary" size="lg">
               Reserve Table
             </Button>
           </div>
