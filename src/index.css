@@ -2,39 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Indian Restaurant Design System - Rich spice-inspired colors */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 32 15% 97%;
+    --foreground: 15 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 15 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 15 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Warm spice colors */
+    --primary: 18 85% 50%; /* Rich saffron orange */
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 25 95% 65%; /* Bright turmeric */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 14 70% 45%; /* Deep paprika */
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 30 25% 92%;
+    --muted-foreground: 15 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 90% 55%; /* Golden spice */
+    --accent-foreground: 15 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 30 20% 88%;
+    --input: 30 20% 90%;
+    --ring: 18 85% 50%;
+
+    /* Custom colors for Indian restaurant theme */
+    --spice-red: 8 75% 55%; /* Cayenne red */
+    --spice-yellow: 45 90% 55%; /* Turmeric gold */
+    --spice-brown: 25 40% 35%; /* Cumin brown */
+    --warm-cream: 35 30% 95%; /* Basmati cream */
+    
+    /* Gradients */
+    --gradient-spice: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-warm: linear-gradient(180deg, hsl(var(--warm-cream)), hsl(var(--background)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--spice-red)), hsl(var(--primary)), hsl(var(--spice-yellow)));
+    
+    /* Shadows */
+    --shadow-warm: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-elegant: 0 20px 60px -20px hsl(var(--spice-brown) / 0.4);
 
     --radius: 0.5rem;
 
